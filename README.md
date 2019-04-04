@@ -47,17 +47,20 @@ __Mono Repo__
 __*Pros*__ 
 1. Easier to keep input/output contracts in sync
 2. Can version the entire repo with a build number
+
 __*Cons*__  
 
 1. Different teams working in the same repo can break the build, disrupting CI/CD for other teams
 2. Easier to create tight coupling
 3. Long build times, large code repo to download
+
 __Discrete Repo__ 
 
 __*Pros*__ 
 
 1. Different teams can 'own' different repositories
 2. Scope of a single repo is more clear
+
 __*Cons*__ 
 
 1. Contract versioning becomes more complex
